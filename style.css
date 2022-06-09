@@ -2,25 +2,34 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.header-top {
+.header {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.top, 
+.bottom {
+    display: flex;
     background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .right-side {
     display: flex;
-    margin-left: auto;
     gap: 16px;
     list-style: none;
     padding: 10px;
 }
 
-.header-bottom {
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-evenly;
+.cap {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.learn {
+    width: 300px;
+    height: 200px;
 }
 
 .text {
@@ -35,15 +44,40 @@ body {
 .sign-up {
     background-color: blue;
     color: white;
-   padding: 8px;
+    padding: 8px;
+    border: solid white 4px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-header {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    gap: 30px;
+}
+
+.caption {
+    text-align: center;
+    max-width: 100px;
+}
+
+
+.balloon {
+    width: 80px;
+    height: 100px;
 }
 a {
     color: white;
     font-size: 22px;
-}
-
-img {
-    max-width: 150px;
-    max-height: auto;
-    padding: 10px;
 }
