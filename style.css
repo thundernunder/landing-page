@@ -65,6 +65,7 @@ body {
     justify-content: center;
     max-width: 700px;
     gap: 30px;
+    padding-bottom: 20px;
 }
 
 .caption {
@@ -77,6 +78,38 @@ body {
     width: 80px;
     height: 100px;
 }
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 100px;
+    align-content: space-between;
+    font-style: italic;
+    row-gap: 20px;
+}
+
+.quote-cite {
+    align-self: flex-end;
+}
+
+.section-four {
+    padding: 30px;
+}
+
+.button-container {
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
 a {
     color: white;
     font-size: 22px;
