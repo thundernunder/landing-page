@@ -1,5 +1,7 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -77,6 +79,8 @@ body {
 .balloon {
     width: 80px;
     height: 100px;
+    background-color: rgb(179, 205, 228);
+    border-radius: 1em;
 }
 
 .section-three {
@@ -101,13 +105,45 @@ body {
 
 .section-four {
     padding: 30px;
+    background-color: white;
 }
 
 .button-container {
-    background-color: blue;
+    background-color: #3882f6;
     display: flex;
-    justify-content: space-evenly;
-    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px 20px;
+    color: white;
+}
+
+.up {
+     background-color: #3882f6;
+     color: white;
+     border: solid white 3px;
+     padding: 0;
+     flex-shrink: 0;
+}
+
+.big, 
+.small {
+    padding: 6px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
 }
 
 a {
